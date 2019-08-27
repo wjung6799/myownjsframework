@@ -1,0 +1,20 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#name {
+    text-align: center;
+    font-size: 21pt;
+}
+
+#profilePhoto {
+    margin: 0 auto;
+}
+
+#profilePhoto img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
