@@ -1,6 +1,12 @@
-function createDomObject(dom, property) {
+function createDomObject(dom, id, classList) {
 	var domObject = new Object();
-	Object.dom = dom;
-	Object.property = property;
+	domObject.dom = dom;
+	domObject.id = function() {
+		domObject.dom.id = id;
+	};
+
+	domObject.classList = function() {
+		
+	}
 	return domObject;
 }
