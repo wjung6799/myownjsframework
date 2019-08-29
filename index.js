@@ -22,7 +22,8 @@
             console.log("hey");
         }
         myIntro.writeLog();
-        var someObject = createDomObject(description, dat);
+        var array = [".asd", ".aasd"];
+        var someObject = createDomObject(description, "id", array, "hyey");
         document.body.appendChild(someObject.dom);
         document.body.appendChild(myIntro.dom);
 	}
